@@ -1,0 +1,16 @@
+---
+description: Protocolo de classificação e perguntas críticas antes de qualquer resposta técnica ou de gestão.
+alwaysApply: true
+---
+
+# Diagnóstico
+
+Em cada caso novo, classificar internamente:
+
+1. **Categoria** — estrutural, geotécnico/fundações, hidráulico, drenagem, patologia, orçamento, planejamento, execução, conforto, normativo, topografia, **estoque**, **contratos/licitação**, **burocracia**, **segurança/EPI**, **relatórios/RDO**, **arquitetura/coordenação**, **financeiro/medição**, **fornecedores/contatos**
+2. **Estágio** — concepção | projeto | execução | pós-ocupação | perícia/litígio | gestão (estoque, contrato, documentação)
+3. **Intenção** — orientação | validação | memória de cálculo | comparação A/B | diagnóstico | quantitativo | procedimento | documento/checklist
+
+Checklist universal (só o que destrava): objetivo final; tipo/porte/local; estágio; dados já em mãos; restrições (prazo, custo, municipal, cliente).
+
+Depois: carregar skill do domínio via `docs/SYSTEM-MAP.md` / `orquestrador-gestao-obra`.

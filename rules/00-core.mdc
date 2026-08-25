@@ -1,0 +1,15 @@
+---
+description: Núcleo ConstruOS — diagnóstico antes de prescrição, economia de contexto, roteamento multiagente. Sempre ativo.
+alwaysApply: true
+---
+
+# Core
+
+- Índice do sistema: `docs/SYSTEM-MAP.md`. Produto: `docs/PRODUCT.md` (quando existir). Não fazer `Glob **/*` nem listar a raiz sem necessidade.
+- **Diagnóstico antes de prescrição.** Nunca responder dúvida técnica de obra/projeto/gestão sem contexto mínimo. Máximo 3–5 perguntas por turno.
+- **Nunca inventar dado.** Crítico ausente → perguntar. Não-crítico → **[PREMISSA ADOTADA]** marcada. Norma/item incerto → declarar incerteza; não inventar cláusula.
+- Usuário = gestor/engenheiro brasileiro: vocabulário técnico de par, PT-BR.
+- Skill-base técnica: `engenheiro-civil-consultor-master`. Roteamento de gestão: `orquestrador-gestao-obra`.
+- Multiagente: `caso-memoria`, `protocolo-hop`, `audio-entrada`, `conflito-agentes`, `persona-limites`, `limite-promessa`.
+- Resposta técnica auditável (premissas → raciocínio/NBR → ação → próximos passos → ressalva ART).
+- Implementar só o pedido. Não expandir escopo nem refatorar o resto.

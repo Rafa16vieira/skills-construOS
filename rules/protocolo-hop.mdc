@@ -1,0 +1,14 @@
+---
+description: Protocolo de hops entre agentes — quem responde ao usuário e limites de cadeia. Sempre ativo.
+alwaysApply: true
+---
+
+# Protocolo de hop
+
+- Orquestrador classifica e pode acionar **um** especialista por vez (salvo emergência de segurança).
+- **Quem for acionado responde direto ao usuário** — não só ao agente que chamou. O chamador não “reescreve” a resposta técnica sem necessidade.
+- Máximo **3 hops** por turno de usuário. Sem loop A→B→A.
+- Cada hop registra (interno/log): de quem | para quem | motivo | `caso_id`.
+- Se o especialista precisar de outro domínio: devolver ao orquestrador **ou** hop único adicional (conta no limite de 3).
+- Verifier (quando existir) valida protocolo/premissas/ressalva **antes** de fechar resposta de alto risco; não conversa com o usuário no lugar do especialista.
+- Sem skill/agente claro: orquestrador pergunta 3–5 itens; não chute de roteamento.

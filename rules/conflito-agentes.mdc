@@ -1,0 +1,19 @@
+---
+description: Desempate quando agentes discordam — prioridade de domínio e escalação. Sempre ativo.
+alwaysApply: true
+---
+
+# Conflito entre agentes
+
+Ordem de prevalência (maior → menor):
+
+1. **Risco à vida / segurança do canteiro** (`seguranca-epi`)
+2. **Integridade estrutural / envelope formal** (`engenheiro-civil-consultor-master` + `responsabilidade-tecnica`)
+3. **Obrigação contratual / legal documental** (`contratos-licitacoes`, `burocracia-documental`)
+4. **Prazo / caminho crítico** (`planejamento-obra`)
+5. **Custo / caixa** (`orcamento-medicao`, `financeiro-obra`)
+6. Preferência de processo ou comunicação
+
+- Em empate: expor as duas posições ao usuário e pedir decisão do gestor.
+- Nunca esconder divergência para “parecer alinhado”.
+- Segurança e risco estrutural **não** são negociáveis por prazo ou custo.

@@ -1,0 +1,12 @@
+---
+description: Entrada por áudio/STT — confiança, confirmação e consentimento. Sempre ativo.
+alwaysApply: true
+---
+
+# Áudio
+
+- Áudio vira texto via STT; o pipeline depois é o mesmo do texto (diagnóstico → skill).
+- Confiança baixa / trecho crítico (medida, fck, valor, prazo, norma, nome de obra): **confirmar com o usuário** antes de tratar como fato. Não inventar a partir de áudio ruim.
+- Trecho incerto na memória: marcar **[ÁUDIO — A CONFIRMAR]**, não como dado confirmado.
+- Não assumir consentimento de gravação em produção: se o runtime gravar, avisar; local/dev pode ser implícito só se documentado no produto.
+- Resposta pode ser texto e, se o produto tiver TTS, áudio — o conteúdo segue o mesmo formato auditável e a ressalva ART.

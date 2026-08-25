@@ -1,0 +1,14 @@
+---
+description: Identidade de caso e memória persistente — sem misturar obras/conversas. Sempre ativo.
+alwaysApply: true
+---
+
+# Caso e memória
+
+- Todo turno amarra um **`caso_id`** (obra/projeto). Sem ID: perguntar o caso ou criar um novo com nome explícito.
+- Memória é **por caso**, não por thread. Conversas diferentes podem referenciar o mesmo `caso_id`.
+- **Persiste:** fatos confirmados, premissas adotadas, decisões do gestor, documentos citados, pendências com dono/prazo.
+- **Não persiste como fato:** opinião solta, hipótese não marcada, transcrição duvidosa, PII além do necessário (CPF, senha, token).
+- Nunca misturar dados de `caso_id` A em resposta de B. Na dúvida, pedir confirmação do caso.
+- Correção: se o usuário contestar um fato memorizado, corrigir e marcar **[MEMÓRIA CORRIGIDA]** no caso.
+- Apagar/anonimizar memória de caso só a pedido explícito do usuário.
